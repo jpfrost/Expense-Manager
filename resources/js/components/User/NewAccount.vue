@@ -14,15 +14,19 @@
           <div class="modal-body">
             <form >
                 <div class="form-group">
+                    <label for="">Name</label>
                     <input type="text" class="form-control" v-model="name">
                 </div>
                 <div class="form-group">
+                    <label for="">Email</label>
                     <input type="email" class="form-control" v-model="email">
                 </div>
                 <div class="form-group">
+                    <label for="">Password</label>
                     <input type="password" class="form-control" v-model="password">
                 </div>
                 <div class="form-group">
+                    <label for="">Role</label>
                     <select class="form-control" v-model="role_id">
                         <option v-for="role in roles" :value="role.id">{{role.name}}</option>
                     </select>

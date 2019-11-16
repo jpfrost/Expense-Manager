@@ -14,6 +14,7 @@
           <div class="modal-body">
             <form >
                 <div class="form-group">
+                    <label for="">Expense Name</label>
                     <input type="text" class="form-control" v-model="name">
                 </div>
             </form>

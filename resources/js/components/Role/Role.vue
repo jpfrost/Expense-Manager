@@ -14,8 +14,11 @@
           <div class="modal-body">
             <form>
                 <div class="form-group">
+                    <label for="">Role Name</label>
                     <input type="text" class="form-control" v-model="name">
                 </div>
+                <hr>
+                <label for="">Permission</label>
                 <div class="form-group">
                     <label for="">Admin</label>
                     <input type="checkbox" v-model="access" value="1">

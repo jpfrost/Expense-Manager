@@ -1937,6 +1937,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['expense'],
   data: function data() {
@@ -2099,6 +2100,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: [],
   data: function data() {
@@ -2223,6 +2225,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2261,6 +2266,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -2446,6 +2454,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
 //
 //
 //
@@ -2690,6 +2702,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['roles'],
   data: function data() {
@@ -2733,6 +2749,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -2928,6 +2946,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -75255,6 +75275,8 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Expense Name")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -75492,6 +75514,8 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Expense Name")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -75706,6 +75730,8 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Role Name")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -75728,6 +75754,10 @@ var render = function() {
                     }
                   })
                 ]),
+                _vm._v(" "),
+                _c("hr"),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "" } }, [_vm._v("Permissions")]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
                   _c("label", { attrs: { for: "" } }, [_vm._v("Admin")]),
@@ -75933,6 +75963,8 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Role Name")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -75955,6 +75987,10 @@ var render = function() {
                     }
                   })
                 ]),
+                _vm._v(" "),
+                _c("hr"),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "" } }, [_vm._v("Permission")]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
                   _c("label", { attrs: { for: "" } }, [_vm._v("Admin")]),
@@ -76267,6 +76303,8 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Name")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -76291,6 +76329,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Email")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -76315,6 +76355,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Password")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -76339,6 +76381,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Role")]),
+                  _vm._v(" "),
                   _c(
                     "select",
                     {
@@ -76615,6 +76659,8 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Name")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -76639,6 +76685,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Email")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -76663,6 +76711,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Password")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -76687,6 +76737,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Role")]),
+                  _vm._v(" "),
                   _c(
                     "select",
                     {
@@ -76833,6 +76885,10 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [
+                    _vm._v("Expense Category")
+                  ]),
+                  _vm._v(" "),
                   _c(
                     "select",
                     {
@@ -76873,6 +76929,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Amount")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -77160,6 +77218,10 @@ var render = function() {
             _c("div", { staticClass: "modal-body" }, [
               _c("form", [
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [
+                    _vm._v("Expense Category")
+                  ]),
+                  _vm._v(" "),
                   _c(
                     "select",
                     {
@@ -77200,6 +77262,8 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "form-group" }, [
+                  _c("label", { attrs: { for: "" } }, [_vm._v("Amount")]),
+                  _vm._v(" "),
                   _c("input", {
                     directives: [
                       {
@@ -90946,8 +91010,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp2\htdocs\ARBExam\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp2\htdocs\ARBExam\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Jasper\Documents\GitHub\ExpenseManager\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Jasper\Documents\GitHub\ExpenseManager\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

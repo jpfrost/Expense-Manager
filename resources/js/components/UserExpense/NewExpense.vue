@@ -14,11 +14,13 @@
           <div class="modal-body">
             <form >
               <div class="form-group">
+                    <label for="">Expense Category</label>
                     <select class="form-control" v-model="expense_cat_id">
                         <option v-for="expenseCat in expenseCats" :value="expenseCat.id">{{expenseCat.name}}</option>
                     </select>
               </div>
               <div class="form-group">
+                  <label for="">Amount</label>
                   <input type="number" class="form-control" v-model.number="amount">
               </div>
                 
